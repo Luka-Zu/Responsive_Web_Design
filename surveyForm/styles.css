@@ -1,1 +1,59 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body{
+  font-family: 'Pangolin', cursive;
+  background-color:#ffbe76;
+  text-align:center;
+  margin=0;
+}
+h1{
+  margin-bottom:0;
+
+}
+h1 +p{
+  margin-top:0;
+}
+form{
+  background-color:#f9ca24;
+  box-shadow:2px 5px 10px rgba(0,0,0,0.4);
+  border-radius:4px;
+  padding:30px 20px;
+  max-width:700px;
+  margin:0 auto;
+}
+.form-control{
+
+  text-align:left;
+}
+.form-control label{
+  display:block;
+  font-size:25px;
+  margin-bottom:8px;
+  margin-top:8px;
+}
+.form-control input,.form-control select,.form-control textarea{
+  display:block;
+  border:1px red;
+  border-radius:6px;
+  font-size:20px;
+  font-family:'Pangolin', cursive;
+  padding:5px;
+  width:100%;
+}
+.form-control input[type="radio"]{
+  display:inline-block;
+  width:auto;
+}
+.form-control input[type="checkbox"]{
+  display:inline-block;
+  width:auto;
+}
+button{
+  width:100%;
+
+  margin-top:10px;
+  height:30px;
+  font-family:'Pangolin', cursive;
+  background-color:#ffbe76;
+  font-size:16px;
+}
