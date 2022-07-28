@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <h1 id="title">
+  Premierleague survey
+    </h1>
+    <p id="description"><i>which footbabll team is your favorite in premierleague?</i></p>
+    <form id="survey-form">
+      <div class="form-control">
+        <label for="name" id="name-label" >Name</label>
+        <input type="name" id="name" placeholder="Enter your name" required>
+        
+      </div>
+
+      <div class="form-control">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        
+      </div>
+      <div class="form-control">
+        <label for="age" id="number-label">Age</label>
+        <input type="number" id="number" placeholder="Enter your age" required min="0" max="200">
+      <div class="form-control">
+        <label for="club" >which club is your favorite in premier league?</label>
+        <select name="club" id="club">
+          <option value="manu" >Manchester United</option>
+          <option value="liv" >Liverpool</option>
+          <option value="manc" >Manchester city</option>
+          <option value="ars" >Arsenal</option>
+          <option value="che" >Chelsea</option>
+          <option value="orher" >other</option>
+        </select> 
+      </div>
+      <div class="form-control">
+        <label >do you recommend to watch premier league?</label>
+        <label for="recommend1"><input type="radio" value="recommend-1" name="attribute" id="recommend1">Definitely</label>
+        <label for="recommend2"><input type="radio" value="recommend-2" name="attribute" id="recommend2">Maybe</label>
+        <label for="recommend3"><input type="radio" value="recommend-3" name="attribute" id="recommend3">Not sure</label>
+      
+      </div>
+      <div class="form-control">
+        <label for="improve" >why do you like premier league?</label>
+        <select name="improve" id="dropdown">
+          <option value="manu" >best games</option>
+          <option value="lv" >best compatition</option>
+          <option value="mnc" >best teams</option>
+          <option value="oher" >other</option>
+        </select> 
+      </div>
+        
+    <div class="form-control">
+      <label >which clubs do you support?<small> (Check all that apply)</small></label>
+      <label for="improve-1"><input value="a1" type="checkbox" name="attribute" id="improve-1"/>Manchester united</label>
+      <label for="improve-2"><input value="a2" type="checkbox" name="attribute"id="improve-2"/>Aston Villa</label>
+
+      <label for="improve-3"><input value="a3" type="checkbox" name="attribute"id="improve-3"/>manchester city</label>
+
+      <label for="improve-4"><input value="a4" type="checkbox" name="attribute"id="improve-4"/>liverpool</label>
+      <label for="improve-5"><input value="a5" type="checkbox" name="attribute"id="improve-5"/>chelsea</label>
+
+      <label for="improve-6"><input value="a6" type="checkbox" name="attribute"id="improve-6"/>everton</label>
+      </div>    
+    <div class="form-control">
+      <label for="comment">Any comments or suggestions?</label>
+      <textarea name="comment" id="comment" placeholder="enter your comment here"></textarea>
+      
+    </div>
+        <button type="submit"  id="submit">submit</button
+    </form>
+
+
+  </body>
+</html>
